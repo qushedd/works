@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+	<title>Where and when?</title>
+	<style type="text/css">
+		body {
+			 background: linear-gradient(to left, #33ccff 0%, #ccccff 100%);
+		}
+
+		h1 {
+			font-family: 'Poiret One', cursive;
+		}
+
+		.begin {
+			font-family: 'Poiret One', cursive;
+			font-size: 20px;
+			border: 1px solid black;
+			width: 720px;
+			box-shadow: 2px 4px 5px #000;
+
+		}
+
+		.step {
+			height: 2px;
+			width: 135px;
+			color: black;
+			position: absolute; left: 30px;
+		}
+
+		.border-button {
+	  text-decoration: none;
+	  display: inline-block;
+	  padding: 20px 30px;
+	  margin: 10px 20px;
+	  position: relative;
+	  color: black;
+	  border: 1px solid rgba(255, 255, 255, .4);
+	  background: none;
+	  font-weight: 300;
+	  font-family: 'Montserrat', sans-serif;
+	  text-transform: uppercase;
+	  letter-spacing: 2px;
+	}
+	.border-button:before, .border-button:after {
+	  content: "";
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  opacity: 0;
+	  box-sizing: border-box;
+	}
+	.border-button:before {
+	  bottom: 0;
+	  left: 0;
+	  border-left: 1px solid black;
+	  border-top: 1px solid black;
+	  transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+	}
+	.border-button:after {
+	  top: 0;
+	  right: 0;
+	  border-right: 1px solid white;
+	  border-bottom: 1px solid white;
+	  transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
+	}
+	.border-button:hover:before, 
+	.border-button:hover:after {
+	  height: 100%;
+	  width: 100%;
+	  opacity: 1;
+	}
+	.border-button:hover:before {
+	  transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+	}
+	.border-button:hover:after {
+	  transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
+	}
+	.border-button:hover {
+	  background: rgba(255, 255, 255, .2);
+	}
+
+	#buttons {
+		width: 
+	}
+
+	#buttonONE {
+		
+	}
+
+	#buttonTWO {
+		position: absolute; left: 160px; bottom: 590px;
+	}
+
+	#buttonTHREE {
+		position: absolute; left: 315px; bottom: 550px;
+	}
+
+	#buttonFOUR {
+		position: absolute; left: 468px; bottom: 510px;
+	}
+
+	#buttonFIVE {
+		position: absolute; left: 624px; bottom: 470px;
+	}
+
+	#buttonSIX {
+		position: absolute; left: 780px; bottom: 430px;
+	}
+
+	#buttonSEVEN {
+		position: absolute; left: 938px; bottom: 387px;	
+	}
+
+	#buttonEIGTH {
+		position: absolute; left: 1095px; bottom: 349px;
+	}
+
+	#buttonNINE {
+		position: absolute; left: 1256px; bottom: 305px;
+	}
+
+	#buttonTEN {
+		position: absolute; left: 1414px; bottom: 262px;
+	}
+
+	#buttonELEVEN {
+		position: absolute; left: 1573px; bottom: 222px;
+	}
+
+	#buttonTWELVE {
+		position: absolute; left: 1730px; bottom: 177px;	
+	}
+
+	#secondWORKS {
+		position: absolute; bottom: -380px;
+		width: 1890px;
+		height: 500px;
+
+	}
+	</style>
+</head>
+<body>
+	<center><h1>Де і як?</h1></center>
+	<center><div class="begin">
+	<p><b>Цей cайт розроблено для наочних прикладів використання технологій Web-розробки та дізайну. 
+	За весь період свого навчання я собрав тут усі свої роботи які я зробив сам, а іноді не зовсім сам :)<br>
+	Я розповім де і коли вони використовуються.</b></p>
+	</div></center>
+	<div id="buttons">
+	<a href="file:///C:/Users/Ivan/Desktop/html-css-jv/dino/dino.html" class="border-button" id="buttonONE">LVL 12</a>
+	<hr style="height: 2px; width: 135px; color: black; position: absolute; left: 30px;">
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 165px;" >
+	<hr style="height: 2px; width: 153px; color: black; position: absolute; left: 165px; bottom: 580px;">
+	<a href="" class="border-button" id="buttonTWO">LVL 11</a>
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 320px; bottom: 542px;">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 320px; bottom: 538px;">
+	<a href="" class="border-button" id="buttonTHREE">LVL 10</a>
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 474px; bottom: 500px;">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 474px; bottom: 496px;">
+	<a href="file:///C:/Users/Ivan/Desktop/%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B8/canvasBEGIN.html" class="border-button" id="buttonFOUR">LVL 9</a>
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 631px; bottom: 458px;">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 631px; bottom: 455px;">
+	<a href="file:///C:/Users/Ivan/Desktop/%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B8/canvas.html" class="border-button" id="buttonFIVE">LVL 8</a>
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 631px; bottom: 458px;">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 631px; bottom: 455px;">
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 788px; bottom: 417px;">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 788px; bottom: 414px;">
+	<a href="file:///C:/Users/Ivan/Desktop/%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B8/javascript.html" class="border-button" id="buttonSIX">LVL 7</a>
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 945px; bottom: 376px;">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 945px; bottom: 372px;">
+	<a href="file:///C:/Users/Ivan/Desktop/%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B8/button.html" class="border-button" id="buttonSEVEN">LVL 6</a>
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 1102px; bottom: 334px;">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 1106px; bottom: 334px;">
+	<a href="file:///C:/Users/Ivan/Desktop/%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B8/headers.html" class="border-button" id="buttonEIGTH">LVL 5</a>
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 1263px; bottom: 296px;">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 1263px; bottom: 291px;">
+	<a href="file:///C:/Users/Ivan/Desktop/%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B8/text.html" class="border-button" id="buttonNINE">LVL 4</a>
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 1420px; bottom: 253px;">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 1420px; bottom: 248px;">
+	<a href="file:///C:/Users/Ivan/Desktop/%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B8/run.html" class="border-button" id="buttonTEN">LVL 3</a>
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 1577px; bottom: 210px;">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 1577px; bottom: 205px;">
+	<a href="file:///C:/Users/Ivan/Desktop/ua/draw.html" class="border-button" id="buttonELEVEN">LVL 2</a>
+	<hr style="height: 40px; width: 2px; color: black; position: absolute; left: 1735px; bottom: 167px">
+	<hr style="height: 2px; width: 155px; color: black; position: absolute; left: 1735px; bottom: 162px;">
+	<a href="file:///C:/Users/Ivan/Desktop/ua/line.html" class="border-button" id="buttonTWELVE">LVL 1</a>
+
+	</div>
+
+	<div id="secondWORKS">
+		<hr style="background-color: black; height: 2px;">
+		<h2 style="font-family: 'Poiret One', cursive;">Другорядні роботи:</h2>
+		<a href="file:///E:/%D1%81%D0%B0%D0%B9%D1%82%D1%8B%20%D1%81%20%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2/gred.html" class="border-button">Градієнти</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/loop.html" class="border-button">Пусіпаки</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/loop1.html" class="border-button">Сума</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/loop2.html" class="border-button">Вгадай число</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/loop100.html" class="border-button">Сума 2.0</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/loop100.html" class="border-button">Цикли</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/marks.html" class="border-button">Оцінки</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/methods.html" class="border-button">Методи</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/num.html" class="border-button">Вгадай число 2.0</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/user.html" class="border-button">If; Else</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/v.html" class="border-button">Генератор комплементів</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/chess.html" class="border-button">Шахи</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/ex.html" class="border-button">If; Else 2.0</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/function.html" class="border-button">Функція</a>
+		<a href="file:///C:/Users/Ivan/Desktop/%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA/guess.html" class="border-button">Вгадай число 3.0</a>
+		<a href="" class="border-button"></a>
+		<a href="" class="border-button"></a>
+		<a href="" class="border-button"></a>
+
+
+	</div>
+</body>
+</html>
